@@ -88,7 +88,7 @@ li {
 }
 
 .homepage-up {
-    font-size: 3.3rem;
+    font-size: 2.2rem;
     color: #000000;
     overflow: hidden;
     margin: 0 auto;
@@ -101,7 +101,7 @@ li {
 }
 
 .homepage {
-    font-size: 3.3rem;
+    font-size: 2.4rem;
     color: #000000;
     overflow: hidden;
     margin: 0 auto;
@@ -114,7 +114,7 @@ li {
 }
 
 .homepage-sub {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #000000;
     overflow: hidden;
     margin: 0 auto;
@@ -183,6 +183,7 @@ li {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 .a-text-color {
