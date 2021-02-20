@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.text {
+    margin-left: -23px;
+}
+
+.banner-container {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    background-color: rgb(89, 69, 179);
+}
+
+.banner-text {
+    color: black !important;
+}
+
+#designation {
+    font-weight: bold;
+}
+
+.name {
+    color: #fdfff9;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.name:hover {
+    color: #000000 !important;
+}
+
+.nav-link {
+    font-size: 0.9rem;
+    color: #fdfff9;
+}
+
+.nav-link:hover {
+    font-size: 1rem;
+    color: #000;
+}
+
+.navbar-toggler {
+    background-color: #208fda;
+}
+
+.navbar-container {
+    top: 0;
+    padding: 10px;
+    position: sticky;
+    z-index: 2;
+    background-color: #208fda;
+}
+
+.parts {
+    margin-left: 50%;
+}
+
+li {
+    list-style: none;
+}
+
+.about-container {
+    background-image: linear-gradient(to bottom right, #f5f5ef, #fdfff9);
+}
+
+.homepage-up {
+    font-size: 3.3rem;
+    color: #000000;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    /* The typwriter cursor */
+    white-space: pre;
+    letter-spacing: .1em;
+    /* Adjust as needed */
+    animation: typing 8s steps(40, end), blank-caret 0.85s step-end infinite;
+}
+
+.homepage {
+    font-size: 3.3rem;
+    color: #000000;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    /* The typwriter cursor */
+    white-space: pre;
+    letter-spacing: .1em;
+    /* Adjust as needed */
+    animation: typing 5s steps(40, end), blank-caret 0.85s step-end infinite;
+}
+
+.homepage-sub {
+    font-size: 1.3rem;
+    color: #000000;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    /* The typwriter cursor */
+    white-space: pre;
+    letter-spacing: .1em;
+    /* Adjust as needed */
+    animation: typing 8s steps(40, end), blank-caret 0.85s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+.education-container {
+    background-color: #ffffff;
+}
+
+.text-color {
+    color: #208fda;
+}
+
+.circle {
+    background-color: #208fda;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.project-container {
+    background-color: #ffffff;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card:hover {
+    box-shadow: 0px 5px 15px #208fda;
+}
+
+.skill-container {
+    background-image: linear-gradient(to bottom right, #f5f5ef, #fdfff9);
+}
+
+.circleSkill {
+    background-color: #fdfff9;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px #208fda;
+}
+
+.circleSkill:hover {
+    box-shadow: 0px 5px 15px #208fda;
+}
+
+.pos {
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.a-text-color {
+    color: black;
+}
+
+.contact-container {
+    background-color: #0780d1;
+}
+
+.form-color {
+    background-color: #6badda;
+}
+
+.btn {
+    background-color: azure;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+.icon-holder {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    color: #4da6ff;
+}
+
+.icon-holder a {
+    text-decoration: none;
+}
+
+.icon-holder:hover {
+    background-color: #404040;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #abacad;
+}
+
+#status {
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#status.success {
+    background-color: #4CAF50;
+    animation: status 4s ease forwards;
+}
+
+#status.error {
+    background-color: #cc3014;
+    animation: status 4s ease forwards;
+}
+
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
